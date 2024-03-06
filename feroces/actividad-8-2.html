@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="es"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="es"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"lang="es"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js" lang="es"> <![endif]-->
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel=" stylesheet" href="../css/layout.css">
+    <link rel=" stylesheet" href="../css/actividades.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="../js/video.js"></script>
+    <script src="../js/util.js"></script>
+    <script src="../js/smilFunctions.js"></script>
+    <script src="../js/funciones_feroces.js"></script>
+    <script src="../js/funciones.js"></script>
+    <title>Los feroces - Actividad 8 — Parte 2</title>
+
+</head>
+
+<body>
+    <main class="mainact">
+        <div class="container container-act">
+            <div id="video" class="fijado"  style="display: none;">
+                <video src="multimedia/videos/Zorrito_indice.mp4" controls></video>
+            </div>
+            <div class="breadcrumb">
+                <nav class="dropup">
+                    <button aria-expanded="false" aria-controls="submenu" id="submenuButton">
+                        Los feroces
+                    </button>
+                    <ul class="dropup-content-act" id="submenu" aria-label="Índice de actividades">
+                        <li><a id="act1" href="actividad-1-1.html">Actividad 1</a></li>
+                        <li><a id="act2" href="actividad-2-1.html">Actividad 2</a></li>
+                        <li><a id="act3" href="actividad-3-1.html">Actividad 3</a></li>
+                        <li><a id="act4" href="actividad-4-1.html">Actividad 4</a></li>
+                        <li><a id="act5" href="actividad-5-1.html">Actividad 5</a></li>
+                        <li><a id="act6" href="actividad-6-1.html">Actividad 6</a></li>
+                        <li><a id="act7" href="actividad-7-1.html">Actividad 7</a></li>
+                        <li><a id="act8" href="actividad-8-1.html">Actividad 8</a></li>
+                    </ul>
+                </nav>
+                <span>&gt;</span>
+                <span>Actividad 8 — Parte 2</span>
+            </div>
+
+            <header>
+                <h1>El resumen del cuento</h1>
+                <p>Elige el enunciado que mejor resume el episodio del cuento.</p>
+            </header>
+
+            <div class="actividad-feroces-8">
+
+                <p class="libreta_2">El lobo intentó con varias
+                    tretas hacerse pasar por la
+                    mamá de los cabritos. Finalmente
+                    entró en la casa para
+                    comérselos.</p>
+                <form>
+                    <ul class="ul-list">
+                        <li tabindex="0"> <input onkeydown="handleSpacebar(event)"  type="radio" id="enganio" name="radio" value="enganio" class="check"
+                            onclick="check_uncheck_radio(182,this)" ischecked="false">
+                        <label for="enganio"> El engaño del lobo.</label>
+                    </li>
+                    <li tabindex="0"><input onkeydown="handleSpacebar(event)"  type="radio" id="broma" name="radio" value="broma" class="check"
+                            onclick="check_uncheck_radio(182,this)" ischecked="false">
+                        <label for="broma">La broma del lobo.</label>
+                    </li>
+                    <li tabindex="0"><input onkeydown="handleSpacebar(event)"  type="radio" id="cuento" name="radio" value="cuento" class="check"
+                            onclick="check_uncheck_radio(182,this)" ischecked="false">
+                        <label for="cuento"> El cuento del lobo. </label>
+                    </li>
+
+                    </ul>
+                    <div class="flex-form">
+                        <span class="labelResult" id="lblopcion"></span>
+                        <button type="button" onclick="check_radios(182)" id="btncheck" class="btn chequear"> Chequear
+                        </button>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+    </main>
+  
+    <div class="video" id="audio" style="display: none;">
+        <audio id="audioplayer" src="multimedia/audio/45.mp3" controls="controls"></audio>
+    </div>
+    <footer>
+        <div class="menu-bottom">
+            <div class="ft_izq">
+                <nav class="dropup" id="nave">
+                    <button class="dropbtn" aria-expanded="false" aria-controls="menu" id="menuButton">
+                        Índice
+                    </button>
+                    <ul class="dropup-content" id="menu" aria-label="Índice">
+                        <li>
+                            <a href="../inicio.html" id="index">
+                                <p>Inicio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../mulita/index.html" id="mulita">
+                                <p>Yo soy Mulita</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../feroces/index.html" id="feroces">
+                                <p>Los feroces</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../comelibros/index.html" id="comelibros">
+                                <p>Los comelibros</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../extranio/index.html" id="extranio">
+                                <p>El más extraño</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../intrepidos/index.html" id="intrepidos">
+                                <p>Los intrépidos</p>
+                            </a>
+                        </li> <li>
+                <a href="../pagelist.html" id="listado">
+                  <p>Guía de páginas</p>
+                </a>
+              </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="ft_der">
+                <nav class="navder">
+                    <ol>
+                        <li><a id="Anterior"  href="../feroces/actividad-8-1.html"><img src="../images/svgPreviousPageW.svg" alt=""
+                                    aria-hidden="true"></a></li>
+                        <li><a id="Siguiente"  href="../feroces/actividad-8-3.html"><img src="../images/svgNextPageW.svg" alt=""
+                                    aria-hidden="true"></a></li>
+                    </ol>
+                </nav>
+            </div>
+            <div class="ft_der">
+                <nav class="navder">
+                    <ol>
+                        <li>
+                            <button type="button" name="answer" onclick="myFunction()" id="toggleVideoOverHighlightImg">
+                                <img src="../images/iconVideosB.svg" alt="" aria-hidden="true" id="ico_video">
+                            </button>
+                        </li>
+                        <li id="btn_juntos">
+                            <button type="button" name="answer" onclick="audio()">
+                                <img src="../images/voiceOver_off.svg" alt="" aria-hidden="true"
+                                    id="toggleVoiceOverHighlightImg">
+                            </button>
+
+                            <button type="button" name="toggleVoiceOverHighlight" id="audio_control"
+                                onclick="audio_control()">
+                                <img src="../images/iconAudioB.svg" alt="" aria-hidden="true">
+                            </button>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <script async defer>let pageId = 2;</script>
+    <script src="../js/menu_drop.js"></script>
+    <script src="../js/menu_drop_act.js"></script>
+</body>
+
+</html>

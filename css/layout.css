@@ -1,0 +1,1256 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/dk-rabbit-on-the-moon");
+
+* {
+  font-family: "Open Sans", sans-serif !important;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s;
+}
+em {
+  font-style: italic;
+}
+small {
+  font-size: smaller;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.hide {
+  display: none;
+}
+
+/* PORTADA INDEX*/
+#portada {
+  background-color: #00a5a5;
+}
+
+#portada h1 {
+  font-family: "DK Rabbit On The Moon", sans-serif !important;
+  color: white;
+  font-size: 3em;
+  line-height: 1em;
+}
+
+#portada main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 35px;
+}
+
+#portada h1 span {
+  font-family: "DK Rabbit On The Moon", sans-serif !important;
+  color: #f7941e;
+}
+#portada h2 {
+  font-size: 1.5em;
+  margin: 0;
+  font-weight: 400;
+}
+
+#portada main img {
+  transform: scale(-0.8, 0.8) translateY(-20%) translateX(-0%);
+  max-width: 340px;
+}
+#portada div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 340px;
+  width: 340px;
+  height: 340px;
+  background-color: #027875;
+  text-align: center;
+  border-radius: 100%;
+  padding: 3em;
+  color: white;
+}
+
+#ingresar {
+  background-color: #f7941e;
+  color: #027875;
+  font-size: 1.4em;
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
+  border-radius: 3px;
+  padding: 0.4em 0.7em;
+  top: -1.5em;
+}
+
+#ingresar:hover {
+  background-color: #027875;
+  color: white;
+}
+#portada footer {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  height: initial;
+  padding: 0.6em;
+  align-items: center;
+  justify-content: center;
+  gap: 4%;
+  text-align: center;
+  border-top: #027875 3px solid;
+}
+
+#portada footer img {
+  max-width: 35%;
+  vertical-align: middle;
+  max-height: 30px;
+}
+#portada footer a {
+  color: rgb(87, 87, 87);
+  display: inline-block;
+  margin-top: 0.4em;
+  font-weight: bold;
+  padding: 0.5em 0.7em;
+  border-radius: 3px;
+}
+#portada footer a:hover {
+  background-color: #00a5a5;
+  color: white;
+}
+
+#pagelist {
+  margin: auto;
+  width: fit-content;
+}
+#pagelist th {
+  font-weight: bold;
+  padding: 0 0.5em 1em;
+  border-bottom: 2px solid #027875;
+  text-align: left;
+  vertical-align: middle;
+}
+#pagelist th:first-child {
+  min-width: 150px;
+}
+
+#pagelist td {
+  border-bottom: 1px solid gainsboro;
+  padding: 0.5em;
+  vertical-align: middle;
+}
+#pagelist a {
+  color: #027875;
+  text-decoration: underline;
+}
+
+#pagelist h2 {
+  color: #027875;
+  font-size: 1.2em;
+  margin: 0;
+}
+#pagelist .fondito {
+  background-color: #00a5a513;
+}
+
+@media all and (min-width: 768px) {
+  #pagelist th:first-child {
+    min-width: 200px;
+  }
+
+  #portada main {
+    flex-direction: row;
+    padding-bottom: 77px;
+  }
+  #portada main img {
+    transform: scale(-1, 1) translateY(0) translateX(10%);
+  }
+  #portada footer a {
+    margin-top: 0;
+  }
+  #ingresar {
+    top: 3em;
+    left: 0.8em;
+  }
+}
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  display: flex !important;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+}
+
+.menu-bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  max-width: 1024px;
+}
+
+.menu-bottom div:nth-child(3) {
+  justify-content: flex-start;
+}
+
+.ft_der {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navder ol {
+  display: flex;
+}
+
+.navder ol li {
+  display: flex;
+}
+
+.navder ol li img {
+  width: 36px;
+  height: 36px;
+  margin: 0 1rem;
+  vertical-align: middle;
+}
+.btn_juntos {
+  background-color: rgba(255, 255, 255, 0.233);
+  border-radius: 40px;
+}
+
+#audio_control img {
+  margin-left: 0;
+}
+.navder ol li button {
+  background: transparent;
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.espacio {
+  width: 64px;
+}
+footer input[type="submit"i] {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.dropbtn {
+  background-color: #000;
+  color: white;
+  padding: 0 13px;
+  font-size: 18px;
+  border: none;
+  height: 50px;
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  background-color: #000;
+  min-width: 300px;
+  bottom: 49px;
+  z-index: 1;
+}
+
+.dropup-content-act {
+  display: none;
+  position: absolute;
+  background-color: rgb(235, 235, 235);
+  width: 120px;
+  border-top: 2px solid #00a5a5;
+  margin-top: -2px;
+  z-index: 1000;
+}
+.dropup-content-act a {
+  color: #00a5a5;
+  padding: 0.5em 1em;
+  display: block;
+}
+.dropup-content a {
+  color: #fff;
+  padding: 9px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 1.1rem;
+}
+.drop-focus,
+.dropup-content a:hover,
+.dropup-content a:focus,
+.drop-indice {
+  background-color: #ccc;
+  color: #000;
+}
+.rojo {
+  background-color: red !important;
+}
+.drop-focus a {
+  color: #000;
+}
+
+.drop-focus2,
+.drop-focus2 a,
+.dropup-content-act a:hover {
+  background-color: #d2d2d2;
+  color: #000;
+}
+
+.dropup:hover .dropup-content,
+.dropup:hover .dropup-content-act {
+  display: block;
+}
+
+.dropup:hover .dropbtn {
+  background-color: #2980b9;
+}
+
+/* VIDEO - AUDIO */
+
+#video {
+  display: none;
+  margin: auto;
+  width: fit-content;
+  max-width: 95%;
+}
+
+#video video {
+  max-width: 100%;
+  max-height: 220px;
+  margin-top: 1em;
+}
+
+#audio {
+  position: fixed;
+  top: initial;
+  right: 0%;
+  bottom: 60px;
+}
+
+#descarga_libro {
+  color: #505050;
+  border: 1px solid #989898;
+  display: inline-block;
+  background-color: #e4e4e4;
+  background-image: url(../images/ico_download.png);
+  background-repeat: no-repeat;
+  background-position: left 20px center;
+  padding: 12px 12px 12px 60px;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+#descarga_libro:hover {
+  background-color: rgb(203, 203, 203);
+}
+
+/* INDEX */
+
+.container {
+  width: 95%;
+  margin: auto;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.inicio h1 {
+  color: #027875;
+  font-size: 2.3em;
+  line-height: 1.05em;
+  text-align: center;
+  margin: 0.8em 0;
+  font-weight: bold;
+}
+
+.menu_principal a {
+  display: block;
+  color: white;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 0.5em;
+  padding-left: 3.5em;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 1.35em;
+}
+
+.menu_principal img {
+  position: absolute;
+}
+
+@media all and (min-width: 768px) {
+  .menu_principal ul {
+    display: flex;
+    flex-direction: column;
+    max-height: 370px;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+  .menu_principal li {
+    width: 48%;
+  }
+
+  .menu_principal.interno ul {
+    display: block;
+    max-width: 65%;
+    margin: 0 auto;
+    max-height: fit-content;
+  }
+  .menu_principal.interno li {
+    width: 100%;
+  }
+  .inicio {
+    max-width: 980px;
+  }
+  .inicio h1 {
+    font-size: 2.7em;
+    margin-top: 0;
+  }
+
+  .menu_principal.interno a {
+    padding-left: 3em;
+  }
+  .menu_principal.interno li:nth-last-child(1) a {
+    margin-bottom: 0;
+  }
+  .menu_principal a {
+    font-size: 1.7em;
+    margin-bottom: 1.8em;
+    transition: 0.35s;
+  }
+  .menu_principal a:hover {
+    transform: translateX(2%);
+  }
+  .menu_principal a img {
+    transform: scale(1.4);
+  }
+  #descarga_libro {
+    padding-left: 60px;
+    font-size: 1.7em;
+  }
+}
+@media all and (min-width: 992px) {
+  #video {
+    margin: -50px 0 0 auto;
+    padding-bottom: 45px;
+  }
+
+  #video.fijado {
+    position: fixed;
+    z-index: 15;
+    bottom: 0px;
+    right: 0px;
+    width: auto;
+    padding-right: 0;
+  }
+}
+
+/* PRESENTACIÓN MULITA */
+
+.pre-mulita {
+  color: white;
+  position: relative;
+  max-width: 960px;
+  margin: auto;
+}
+
+.pre-mulita p {
+  position: absolute;
+  font-weight: bold;
+}
+.pre-mulita p.mulita0 {
+  top: 8%;
+  width: 60%;
+  left: 7%;
+}
+.pre-mulita p.mulita1 {
+  top: 8%;
+  left: 24%;
+}
+.pre-mulita p.mulita2-1 {
+  top: 6%;
+  left: 20%;
+  width: 40%;
+}
+.pre-mulita p.mulita2-2 {
+  top: 40%;
+  right: 3%;
+  width: 35%;
+  font-size: 0.7em;
+  text-align: right;
+}
+.pre-mulita p.mulita2-3 {
+  bottom: 10%;
+  right: 5%;
+  width: 50%;
+  font-size: 0.7em;
+}
+.pre-mulita p.mulita3 {
+  top: 13%;
+  left: 36%;
+  width: 40%;
+  font-size: 0.8em;
+}
+.pre-mulita img {
+  margin: auto;
+}
+
+@media all and (max-width: 576px) {
+  .pre-mulita,
+  .pre-feroces {
+    max-width: 340px;
+  }
+}
+
+@media all and (min-width: 576px) {
+  .pre-mulita p.mulita0 {
+    font-size: 1.5em;
+    left: 8%;
+  }
+  .pre-mulita p.mulita1,
+  .pre-mulita p.mulita2-1 {
+    font-size: 1.5em;
+  }
+  .pre-mulita p.mulita2-2,
+  .pre-mulita p.mulita2-3 {
+    font-size: 1.1em;
+  }
+  .pre-mulita p.mulita3 {
+    font-size: 1.2em;
+    width: 38%;
+  }
+ 
+}
+
+@media all and (min-width: 768px) {
+  .pre-mulita p.mulita0 {
+    width: 40%;
+    font-size: 1.3em;
+    left: 13%;
+    top: 25%;
+  }
+  .pre-mulita p.mulita1 {
+    font-size: 1.3em;
+    left: 29%;
+    top: 17%;
+  }
+  .pre-mulita p.mulita2-1 {
+    font-size: 1.3em;
+    top: 16%;
+    left: 18%;
+    width: 30%;
+  }
+  .pre-mulita p.mulita2-2 {
+    top: 47%;
+  }
+  .pre-mulita p.mulita2-3 {
+    bottom: 13%;
+    width: 36%;
+  }
+  .pre-mulita p.mulita3 {
+    font-size: 1.2em;
+    top: 26%;
+    width: 26%;
+    left: 39%;
+  }
+  .cuento-pirata .figure-grande{
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+   }
+   .cuento-pirata.pag2 figure:nth-child(2),
+   .cuento-pirata.pag3 figure,
+   .cuento-pirata.pag4 figure
+   {
+       flex-direction: row;
+   }
+}
+
+@media all and (min-width: 992px) {
+  .pre-mulita p.mulita0 {
+    width: 35%;
+    font-size: 1.5em;
+    left: 14%;
+    top: 27%;
+  }
+  .pre-mulita p.mulita1,
+  .pre-mulita p.mulita3 {
+    font-size: 1.5em;
+  }
+  .pre-mulita p.mulita2-1 {
+    font-size: 1.5em;
+    width: 26%;
+    top: 17%;
+  }
+  .pre-mulita p.mulita2-2 {
+    width: 29%;
+    font-size: 1.2em;
+  }
+  .pre-mulita p.mulita2-3 {
+    width: 29%;
+    font-size: 1.2em;
+    bottom: 18%;
+  }
+  .cuento-cabritos p {
+    font-size: 1.1em;
+  }
+}
+
+/* PRESENTACIÓN FEROCES */
+
+.titulo-capitulo {
+  text-align: center;
+  font-weight: bold;
+  color: #027875;
+  font-size: 1.7em;
+}
+.pre-feroces {
+  position: relative;
+  max-width: 960px;
+  margin: auto;
+}
+
+.pre-intrepidos img {
+  transform: translateY(-15%);
+}
+
+.globo-feroces,
+.globo-comelibros {
+  color: white;
+  margin: 1em auto;
+  background: url(../feroces/img/Pag11/globo.svg) center center no-repeat;
+  background-size: contain;
+  text-align: center;
+  width: fit-content;
+  padding: 0.5em;
+  line-height: 1.2em;
+}
+
+.globo-comelibros,
+.globo-intrepidos {
+  background: url(../comelibros/img/titulo.svg) center center no-repeat;
+  padding: 1em;
+}
+.pre-extranio img {
+  transform: translateY(-30px);
+}
+.globo-extranio {
+  background: url(../extranio/img/titulo.svg) center center no-repeat;
+  padding: 1em;
+}
+
+.feroces1 {
+  background: url(../feroces/img/Pag11/libro.png) left center no-repeat;
+  background-size: contain;
+  font-size: 0.7em;
+  margin: auto;
+  padding: 3em 02em 2em 2.2em;
+  position: absolute;
+  bottom: 0%;
+  right: 0;
+  transform: translate(0, 20%);
+  width: fit-content;
+  z-index: 5;
+}
+
+.intrepidos1 {
+  background: url(../feroces/img/Pag11/libro_largo.png) left center no-repeat;
+  background-size: contain;
+}
+
+.feroces1 a {
+  color: black;
+  text-decoration: underline;
+}
+.cuento-lobito {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4%;
+  max-width: 600px;
+  margin: auto;
+}
+.cuento-lobito.encima {
+  flex-direction: column;
+  align-items: center;
+}
+
+.cuento-lobito header {
+  margin-bottom: 3em;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+}
+.actividad-cuento-lobito {
+  display: block;
+  max-width: 400px;
+}
+
+.cuento-lobito h1 {
+  color: #f39200;
+  font-size: 2em;
+  font-weight: bold;
+  width: 48%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 200px;
+  border: 1px solid rgb(217, 217, 194);
+  box-shadow: 4px 4px 0 0 rgb(217, 217, 194);
+  margin-bottom: 4%;
+}
+
+.cuento-ratones h1 {
+  color: #2fac66;
+  margin-bottom: 2%;
+}
+
+.cuento-pulga h1 {
+  color: #b780b1;
+}
+
+.cuento-pirata h1 {
+  color: #027875;
+  margin-bottom: 2%;
+}
+
+.cuento-lobito figure {
+  width: 48%;
+  border: 1px solid rgb(217, 217, 194);
+  padding: 0.5em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: 4px 4px 0 0 rgb(217, 217, 194);
+  max-width: 200px;
+  margin-bottom: 4%;
+  position: relative;
+  min-height: 260px;
+}
+
+.cuento-ratones .figure-grande, .cuento-pirata .figure-grande {
+  max-width: 650px;
+  margin-bottom: 2%;
+}
+
+.cuento-lobito figure::before {
+  content: "";
+  display: inline-block;
+  background-color: #f39200;
+  color: white;
+  border-radius: 100%;
+  width: 1.5em;
+  height: 1.5em;
+  font-size: 0.9em;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+.cuento-ratones figure::before {
+  background-color: #2fac66;
+}
+
+.cuento-pulga figure::before {
+  background-color: #b780b1;
+}
+
+
+.cuento-pirata figure::before {
+  background-color: #027875
+}
+
+.cuento-lobito figure:nth-of-type(1)::before {
+  content: "1";
+}
+
+.cuento-lobito figure:nth-of-type(2)::before {
+  content: "2";
+}
+
+.cuento-lobito.pag2 figure:nth-of-type(1)::before {
+  content: "3";
+}
+
+.cuento-lobito.pag2 figure:nth-of-type(2)::before  {
+  content: "4";
+}
+
+.cuento-lobito.pag2 figure:nth-of-type(3)::before {
+  content: "5";
+}
+
+.cuento-lobito.pag3 figure:nth-of-type(1)::before {
+  content: "6";
+}
+.cuento-lobito.pag3 figure:nth-of-type(2)::before {
+  content: "7";
+}
+
+.cuento-ratones.pag2 figure:nth-of-type(1)::before, 
+.cuento-pirata.pag2 figure:nth-of-type(1)::before   {
+  content: "2";
+}
+
+.cuento-ratones.pag2 figure:nth-of-type(2)::before,
+.cuento-pirata.pag2 figure:nth-of-type(2)::before  {
+  content: "3";
+}
+
+.cuento-ratones.pag3 figure:nth-of-type(1)::before, .cuento-pirata.pag3  figure:nth-of-type(1)::before  {
+  content: "4";
+}
+
+.cuento-ratones.pag3 figure:nth-of-type(2)::before, .cuento-pirata.pag3  figure:nth-of-type(2)::before  {
+  content: "5";
+}
+
+.cuento-ratones.pag4 figure:nth-of-type(1)::before, .cuento-pirata.pag4 figure:nth-of-type(1)::before{
+  content: "6";
+}
+
+.cuento-lobito figure img {
+  margin-bottom: 1em;
+  max-height: 200px;
+}
+.cuento-pulga.encima figure {
+  width: 60%;
+  max-width: 300px;
+}
+
+.cuento-pulga figure img, .cuento-pirata figure img {
+  margin-bottom: 0em;
+  display: block;
+  margin: auto;
+}
+
+
+.globo-abajo img:nth-of-type(1) {
+  max-height: initial;
+}
+
+.cuento-pulga figcaption {
+  margin-top: 1.8em;
+  margin-bottom: 0.5em;
+}
+
+.cuento-pulga div, .cuento-pirata div {
+  position: relative;
+}
+
+.cuento-pulga div p {
+  position: absolute;
+  right: 5%;
+  top: 11%;
+  font-size: 0.8em;
+  width: 60%;
+  line-height: 1.1em;
+}
+
+.cuento-pulga div.globo-chico p {
+  top: 22%;
+  right: 5%;
+}
+
+.cuento-pulga div.globo-abajo p {
+  top: initial;
+  bottom: 7%;
+  right: 12%;
+  width: 45%;
+}
+
+.cuento-pirata div p{
+  position: absolute;
+  color:white;
+  right: 2%;
+  bottom: 11%;
+  font-size: 0.8em;
+  width:50%;
+  line-height: 1.1em;
+}
+
+.cuento-pirata.pag3 figure:nth-child(1) figcaption{
+  margin-bottom: 5%;
+}
+
+.cuento-pirata.pag3 figure:nth-child(1) p{
+  bottom: initial;
+  top:5%;
+  left: 10%;
+}
+.cuento-pirata.pag4 figcaption{
+    margin-top: 1.5em;
+}
+
+.cuento-pirata.pag4 figure p{
+  top:16%;
+  right: 0;
+}
+
+.globo-juanito{
+  color:white;
+  background: url(../intrepidos/img/Pag73/globo.svg) no-repeat center center;
+  background-size: contain;
+  padding: 2em 2em 2em 2.5em;
+
+}
+.cuento-cabritos {
+  padding-top: 2em;
+}
+
+.cuento-cabritos h1 {
+  background: url(../feroces/img/Pag15/globo.svg) left center no-repeat;
+  background-size: contain;
+  color: white;
+  margin-bottom: 1em;
+  padding: 0.4em;
+  width: fit-content;
+}
+
+.cuento-diogenes h1 {
+  background: url(../comelibros/img/globo.svg) left center no-repeat;
+  font-size: 1.4em;
+}
+
+.cuento-eulato h1 {
+  background: url(../extranio/img/globo_eulato.svg) left center no-repeat;
+}
+
+.cuento-intrepidos h1 {
+  background: url(../intrepidos/img/globo_intrepidos.svg) left center no-repeat;
+}
+.cuento-cabritos p {
+  margin-bottom: 1em;
+}
+
+.img-cabritos-1 {
+  position: relative;
+  width: 100%;
+  transform: translateY(-15%);
+  z-index: -1;
+  max-width: 400px;
+  margin: auto;
+}
+
+.img-cabritos-1 img {
+  max-height: 400px;
+}
+
+.cuento-eulato .img-cabritos-1,
+.cuento-intrepidos .img-cabritos-1 {
+  transform: translateY(0);
+}
+
+.btn_volver {
+  background-color: #00a5a5;
+  color: white;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin-top: 1em;
+}
+
+/* Tamaños contenedores */
+
+.d-none {
+  display: none !important;
+}
+.d-block {
+  display: block !important;
+}
+
+@media all and (min-width: 576px) {
+  .globo-feroces {
+    position: absolute;
+    left: 20%;
+  }
+
+  .globo-intrepidos {
+    right: 0;
+    left: initial;
+  }
+
+  .feroces1 {
+    transform: scale(1.2) translate(-10%, 20%);
+  }
+
+  .feroces1 strong {
+    font-size: 1.2em;
+  }
+
+  .cuento-diogenes h1 {
+    font-size: 1.5em;
+  }
+
+  .intrepidos1 {
+    transform: scale(1.2) translate(0%, 20%);
+  }
+
+  .pre-extranio img,
+  .pre-intrepidos img {
+    transform: initial;
+  }
+
+  .globo-extranio {
+    left: 35%;
+  }
+
+  .extranio1 {
+    transform: scale(1.2) translate(-10%, 10%) !important;
+  }
+
+  .cuento-pulga div.globo-abajo p {
+    bottom: 9%;
+    right: 15%;
+    width: 41%;
+  }
+  .cuento-pirata div p{
+    bottom: 17%;
+    font-size: 1em;
+  }
+  .cuento-pirata figure div img{
+    min-width: 240px;
+    width:100%;
+  }
+
+  .cuento-pirata.pag3 figure:nth-child(1) p{
+   top:8%;
+    left: 11%;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .globo-feroces {
+    left: 25%;
+    top: 15%;
+  }
+
+  .globo-comelibros {
+    left: 35%;
+    top: 5%;
+  }
+
+  .globo-extranio {
+    left: 36%;
+    top: 10%;
+  }
+
+  .globo-intrepidos {
+    top: 5%;
+    right: 10%;
+    left: initial;
+  }
+
+  .feroces1 {
+    transform: scale(1.2) translate(-40%, -10%);
+  }
+
+  .extranio1 {
+    transform: scale(1.2) translate(-10%, -10%) !important;
+  }
+
+  .intrepidos1 {
+    transform: scale(1.2) translate(-10%, 0%);
+  }
+
+  .cuento-cabritos {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+  }
+
+  .cuento-cabritos div {
+    width: 50%;
+  }
+
+  .cuento-diogenes div {
+    width: 60%;
+  }
+  .img-cabritos-1 {
+    width: 50%;
+    transform: translateY(0);
+    max-width: initial;
+  }
+
+  .align-top {
+    align-items: flex-start;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .titulo-capitulo {
+    font-size: 2em;
+  }
+  .globo-feroces {
+    font-size: 2em;
+  }
+
+  .feroces1 {
+    transform: scale(1.5) translate(-65%, -15%);
+  }
+
+  .comelibros1 {
+    transform: scale(1.5) translate(-34%, -15%);
+  }
+
+  .extranio1 {
+    transform: scale(1.5) translate(-10%, -30%) !important;
+  }
+
+  .intrepidos1 {
+    transform: scale(1.5) translate(-15%, -30%) !important;
+  }
+  .cuento-lobito {
+    max-width: 780px;
+    gap: 2%;
+  }
+  .cuento-lobito h1 {
+    font-size: 2.5em;
+    max-width: 250px;
+  }
+  .cuento-lobito figure {
+    max-width: 250px;
+    font-size: 1.3em;
+  }
+
+  .cuento-lobito figure img {
+    max-height: 240px;
+  }
+  .pre-comelibros img {
+    max-height: 600px;
+  }
+
+  .cuento-pulga div p {
+    right: 6%;
+    top: 11%;
+  }
+  .cuento-pulga div.globo-chico p {
+    top: 19%;
+    right: 4%;
+  }
+
+  .cuento-pulga.encima {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .cuento-pulga.encima figure {
+    width: 48%;
+    max-width: 250px;
+  }
+
+  .cuento-pulga.encima .figure-grande {
+    max-width: 550px;
+  }
+  .cuento-pulga div.globo-abajo p {
+    bottom: 9%;
+    right: 4%;
+    width: 25%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .cuento-lobito {
+    max-width: initial;
+  }
+}
+
+@media all and (orientation: landscape) {
+  .cuento-lobito {
+    max-width: 100%;
+  }
+}
+
+@media all and (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+
+  .d-sm-none {
+    display: none !important;
+  }
+  .d-sm-block {
+    display: block !important;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+  .d-md-none {
+    display: none !important;
+  }
+  .d-md-block {
+    display: block !important;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+  .d-lg-none {
+    display: none !important;
+  }
+  .d-lg-block {
+    display: block !important;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+  .d-xl-none {
+    display: none !important;
+  }
+  .d-xl-block {
+    display: block !important;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .container {
+    width: 1320px;
+  }
+}

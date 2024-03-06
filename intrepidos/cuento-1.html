@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="es"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="es"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"lang="es"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js" lang="es"> <![endif]-->
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel=" stylesheet" href="../css/layout.css">
+    <link rel=" stylesheet" href="../css/actividades.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="../js/video.js"></script>
+    <script src="../js/util.js"></script>
+    <script src="../js/smilFunctions.js"></script>
+    <script src="../js/funciones.js"></script>
+    <title>Cuento: ¿Dónde está mi tesoro?</title>
+
+</head>
+
+<body>
+    <div id="video" class="fijado" style="display: none;">
+        <video src="multimedia/videos/El lobo y los 7 cabritos V1.mp4" controls></video>
+    </div>
+    <main class="container cuento-cabritos cuento-intrepidos">
+        <div>
+            <h1>¿Dónde está mi tesoro?</h1>
+
+            <p>Un día, el pirata Brutus se despertó de la
+                siesta.
+            </p>
+            <p>
+                —Tengo ganas de jugar con mi tesoro
+                —exclamó.</p>
+            <p> Tantas ganas tenía que se puso el sombrero
+                al revés y saltó de la hamaca.</p>
+            <p> Fue derechito a buscar su tesoro, pero no
+                lo encontró.</p>
+            <p> No estaba. Ni acá. Ni allá. Ni mucho menos
+                en alguna parte.</p>
+
+            <p> Así que Brutus se preocupó sin parar
+                hasta que llegó al puerto.</p>
+            <p> Subió a su barco pirata y navegó alrededor
+                de la isla.</p>
+            <p>Por fin, se acercó a una orilla cualquiera y
+                se bajó.</p>
+            <p>Justo allí, medio escondido en la arena,
+                había un cofre chiquitito.</p>
+
+
+        </div>
+
+        <figure class="img-cabritos-1">
+            <img src="img/Pag75/Recurso 112.svg" alt="Brutus mirando por su catalejo">
+        </figure>
+
+    </main>
+
+    <div class="video" id="audio" style="display: none;">
+        <audio id="audioplayer" src="multimedia/audio/El lobo y los 7 cabritos 1.m4a" controls="controls"></audio>
+    </div>
+    <footer>
+        <div class="menu-bottom">
+            <div class="ft_izq">
+                <nav class="dropup" id="nave">
+                    <button class="dropbtn" aria-expanded="false" aria-controls="menu" id="menuButton">
+                        Índice
+                    </button>
+                    <ul class="dropup-content" id="menu" aria-label="Índice">
+                        <li>
+                            <a href="../inicio.html" id="index">
+                                <p>Inicio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../mulita/index.html" id="mulita">
+                                <p>Yo soy Mulita</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../feroces/index.html" id="feroces">
+                                <p>Los feroces</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../comelibros/index.html" id="comelibros">
+                                <p>Los comelibros</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../extranio/index.html" id="extranio">
+                                <p>El más extraño</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../intrepidos/index.html" id="intrepidos">
+                                <p>Los intrépidos</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../pagelist.html" id="listado">
+                                <p>Guía de páginas</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="ft_der">
+                <nav class="navder">
+                    <ol>
+                        <li><a id="Anterior" href="../intrepidos/actividad-0-fin.html"><img
+                                    src="../images/svgPreviousPageW.svg" alt="" aria-hidden="true"></a></li>
+                        <li><a id="Siguiente" href="../intrepidos/cuento-2.html"><img src="../images/svgNextPageW.svg"
+                                    alt="" aria-hidden="true"></a></li>
+                    </ol>
+                </nav>
+            </div>
+            <div class="ft_der">
+                <nav class="navder">
+                    <ol>
+                        <li>
+                            <button type="button" name="answer" onclick="myFunction()" id="toggleVideoOverHighlightImg">
+                                <img src="../images/iconVideosB.svg" alt="" aria-hidden="true" id="ico_video">
+                            </button>
+                        </li>
+                        <li id="btn_juntos">
+                            <button type="button" name="answer" onclick="audio()">
+                                <img src="../images/voiceOver_off.svg" alt="" aria-hidden="true"
+                                    id="toggleVoiceOverHighlightImg">
+                            </button>
+
+                            <button type="button" name="toggleVoiceOverHighlight" id="audio_control"
+                                onclick="audio_control()">
+                                <img src="../images/iconAudioB.svg" alt="" aria-hidden="true">
+                            </button>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <script async defer>let pageId = 2;</script>
+    <script src="../js/menu_drop.js"></script>
+</body>
+
+</html>

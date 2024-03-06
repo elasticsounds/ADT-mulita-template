@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="es"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="es"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"lang="es"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js" lang="es"> <![endif]-->
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel=" stylesheet" href="../css/layout.css">
+    <link rel=" stylesheet" href="../css/actividades.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="../js/video.js"></script>
+    <script src="../js/util.js"></script>
+    <script src="../js/smilFunctions.js"></script>
+    <script src="../js/funciones.js"></script>
+    <title>Enciclopedia - El lobo</title>
+
+</head>
+
+<body>
+    <main class="mainact">
+        <div class="container container-enciclopedia">
+            <div id="video" class="fijado" style="display: none;">
+                <video src="multimedia/videos/Cuando el equilibrio ecológico se rompe.mp4" controls></video>
+            </div>
+                <div class="breadcrumb">
+                    <button aria-expanded="false" aria-controls="submenu" id="submenuButton">
+                        <a href="index.html">Los feroces</a>   
+                       </button>
+                    <span>&gt;</span>
+                    <span>Enciclopedia — Parte 3</span>
+                </div>
+               
+
+                <div class="enciclopedia-main">
+                    <div>
+                        <h2>Cuando el equilibrio ecológico se rompe</h2>
+                        <p>En el parque Yellowstone, en Estados Unidos, durante 70 años
+                            no hubo lobos. Entonces los ciervos y los alces se reprodujeron
+                            en gran cantidad ya que no tenían a su principal
+                            depredador o enemigo natural. Así, los ciervos ocuparon
+                            todas las zonas del parque y devastaron gran parte de los
+                            bosques naturales.</p>
+                        <p><small>Texto elaborado por ProLEE para este cuaderno a partir de diversas
+                            fuentes enciclopédicas.</small></p>
+        
+                    </div>
+                    <figure>
+                        <img src="img/lobo3.jpg" alt=" Foto de dos lobos abrazados">
+                    </figure>
+                </div>             
+            </div>
+     </main>
+ 
+    <div class="video" id="audio" style="display: none;">
+        <audio id="audioplayer" src="multimedia/audio/Enciclopedia Los lobos parte 3.mp4" controls="controls"></audio>
+    </div>
+    <footer>
+        <div class="menu-bottom">
+            <div class="ft_izq">
+                <nav class="dropup" id="nave">
+                    <button class="dropbtn" aria-expanded="false" aria-controls="menu" id="menuButton">
+                        Índice
+                    </button>
+                    <ul class="dropup-content" id="menu" aria-label="Índice">
+                        <li>
+                            <a href="../inicio.html" id="index">
+                                <p>Inicio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../mulita/index.html" id="mulita">
+                                <p>Yo soy Mulita</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../feroces/index.html" id="feroces">
+                                <p>Los feroces</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../comelibros/index.html" id="comelibros">
+                                <p>Los comelibros</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../extranio/index.html" id="extranio">
+                                <p>El más extraño</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../intrepidos/index.html" id="intrepidos">
+                                <p>Los intrépidos</p>
+                            </a>
+                        </li> <li>
+                <a href="../pagelist.html" id="listado">
+                  <p>Guía de páginas</p>
+                </a>
+              </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="ft_der">
+                <nav class="navder">
+                    <ol>
+                        <li><a id="Anterior" href="../feroces/enciclopedia-2.html"><img src="../images/svgPreviousPageW.svg" alt=""
+                                    aria-hidden="true"></a></li>
+                        <li><a id="Siguiente" href="../comelibros/index.html"><img src="../images/svgNextPageW.svg" alt=""
+                                    aria-hidden="true"></a></li>
+                    </ol>
+                </nav>
+            </div>
+            <div class="ft_der">
+                <nav class="navder">
+                    <ol>
+                        <li>
+                            <button type="button" name="answer" onclick="myFunction()" id="toggleVideoOverHighlightImg">
+                                <img src="../images/iconVideosB.svg" alt="" aria-hidden="true" id="ico_video">
+                            </button>
+                        </li>
+                        <li id="btn_juntos">
+                            <button type="button" name="answer" onclick="audio()">
+                                <img src="../images/voiceOver_off.svg" alt="" aria-hidden="true"
+                                    id="toggleVoiceOverHighlightImg">
+                            </button>
+
+                            <button type="button" name="toggleVoiceOverHighlight" id="audio_control"
+                                onclick="audio_control()">
+                                <img src="../images/iconAudioB.svg" alt="" aria-hidden="true">
+                            </button>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <script async defer>let pageId = 2;</script>
+    <script src="../js/menu_drop.js"></script>
+</body>
+
+</html>

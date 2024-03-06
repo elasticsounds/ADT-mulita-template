@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 841.9 595.3" style="enable-background:new 0 0 841.9 595.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFD400;}
+</style>
+<g>
+	<g>
+		<g id="XMLID_00000152983676754344023380000006015275652192802467_">
+			<g id="Shape_1_copy_2_00000170978564248727335700000001380012520261805445_">
+				<g id="XMLID_00000015324765817247471970000009402104577836321412_">
+					<path id="XMLID_00000042008299595735657400000018124732272546088116_" class="st0" d="M357.5,292.9
+						c32.5-30.1,9.6-58.9-15.6-73.4c-26.5-14.4-61.4-16.8-93.8-7.2c-9.6,4.8-19.2,8.4-31.3,13.2c13.2-8.4,22.9-22.9,40.9-28.9
+						c31.3-10.8,87.8-10.8,74.6-57.7c-16.8-58.9-110.7-13.2-152.8,15.6c0,0,0-1.2-1.2-1.2c4.8-6,8.4-15.6,16.8-24.1
+						c25.3-26.5,63.8-37.3,21.6-83c-46.9-26.5-99.8,58.9-114.3,87.8c0-9.6,1.2-25.3,6-40.9c6-24.1,15.6-48.1,2.4-62.5
+						C70-16.3,36.3,52.3,31.5,81.1c-6,38.5-9.6,80.6-6,120.3c4.8,40.9,18,49.3,24.1,80.6c1.2,40.9,1.2,80.6,2.4,121.5
+						C44.7,430,6.2,454,9.8,481.7c1.2,16.8,49.3,57.7,57.7,63.8c26.5,16.8,89,57.7,110.7,24.1s24.1-33.7,45.7-65
+						c45.7-22.9,110.7-22.9,154-58.9c43.3-36.1,43.3-117.9,28.9-139.5C390,282,375.5,286.8,357.5,292.9z M350.3,337.4
+						c-1.2,15.6-18,57.7-55.3,67.4c-42.1,10.8-91.4-54.1-57.7-96.2c21.7-26.5,55.3-37.3,73.4-25.3c19.2,13.2,28.9,15.6,42.1,13.2
+						C341.8,313.3,350.3,321.7,350.3,337.4z M790.5,401.1c1.2-40.9,1.2-80.6,2.4-121.5c7.2-31.3,19.2-39.7,25.3-80.6
+						c4.8-40.9,1.2-81.8-4.8-120.3c-4.8-30.1-39.7-97.4-80.6-50.5c-10.8,14.4-2.4,38.5,2.4,62.5c4.8,15.6,6,31.3,6,40.9
+						c-15.6-28.9-67.4-115.5-114.3-87.8c-42.1,46.9-4.8,55.3,21.7,83c7.2,8.4,10.8,19.2,16.8,24.1c0,0,0,1.2-1.2,1.2
+						c-42.1-28.9-137.1-74.6-154-15.6c-13.2,46.9,43.3,46.9,74.6,57.7c18,7.2,30.1,19.2,40.9,28.9c-9.6-4.8-21.7-8.4-31.3-13.2
+						c-32.5-8.4-67.4-7.2-93.8,7.2c-25.3,14.4-49.3,43.3-15.6,73.4c-18-6-32.5-9.6-48.1,13.2c-15.6,22.9-15.6,103.5,28.9,139.5
+						c43.3,37.3,109.5,37.3,154,59c21.7,31.3,24.1,31.3,45.7,65s83-7.2,110.7-24.1c9.6-6,56.5-46.9,57.7-63.8
+						C836.2,452.9,799,428.8,790.5,401.1z M547.5,404.7c-37.3-9.6-55.3-52.9-55.3-67.4c0-15.6,7.2-24.1-2.4-42.1
+						c13.2,4.8,22.9,0,42.1-13.2s54.1-1.2,73.4,25.3C639,349.4,590.8,414.4,547.5,404.7z"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<script>//<![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// 
+	
+	]]>
+</script>
+</svg>

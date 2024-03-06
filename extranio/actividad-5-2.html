@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="es"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="es"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"lang="es"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js" lang="es"> <![endif]-->
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel=" stylesheet" href="../css/layout.css">
+    <link rel=" stylesheet" href="../css/actividades.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="../js/video.js"></script>
+    <script src="../js/util.js"></script>
+    <script src="../js/smilFunctions.js"></script>
+    <script src="../js/funciones.js"></script>
+    <title>El más extraño - Actividad 5 — Parte 2</title>
+
+</head>
+
+<body>
+    <main class="mainact">
+        <div class="container container-act">
+            <div id="video" class="fijado"  style="display: none;">
+                <video src="multimedia/videos/Zorrito_indice.mp4" controls></video>
+            </div>
+            <div class="breadcrumb"> 
+                <nav class="dropup">
+                    <button aria-expanded="false" aria-controls="submenu" id="submenuButton">
+                        El más extraño 
+                    </button>
+                    <ul class="dropup-content-act" id="submenu" aria-label="Índice de actividades">
+                        <li><a id="act1" href="actividad-1-1.html">Actividad 1</a></li>
+                        <li><a id="act2" href="actividad-2-1.html">Actividad 2</a></li>
+                        <li><a id="act3" href="actividad-3-1.html">Actividad 3</a></li>
+                        <li><a id="act4" href="actividad-4-1.html">Actividad 4</a></li>
+                        <li><a id="act5" href="actividad-5-1.html">Actividad 5</a></li>
+                        <li><a id="act6" href="actividad-6-1.html">Actividad 6</a></li>
+                        <li><a id="act7" href="actividad-7-1.html">Actividad 7</a></li>
+                    </ul>
+                </nav>
+                <span>&gt;</span>
+                <span>Actividad 5 — Parte 2</span>
+            </div>
+
+            <header>
+                <h1>¿Quién lo dijo?</h1>
+                <p>Escribe quién dijo cada enunciado.</p>
+            </header>
+
+            <div class=" actividad-extranio-6">
+            <div>
+                <figure>
+                    <img src="img/Pag59/Hormiga.svg" alt="" aria-hidden="true">    
+                    <figcaption>Quico Hormiga</figcaption> 
+                </figure>
+
+                <figure>
+                    <img src="img/Pag59/Grillo.svg" alt="" aria-hidden="true">    
+                    <figcaption>Lulo Grillo</figcaption> 
+                </figure>
+
+                <figure>
+                    <img src="img/eulato2.svg" alt="" aria-hidden="true">    
+                    <figcaption>Eulato</figcaption> 
+                </figure>
+
+                <figure>
+                    <img src="img/Pag59/Abeja2.svg" alt="" aria-hidden="true">    
+                    <figcaption>Señora Abeja</figcaption> 
+                </figure>
+            </div>
+                <form action="" class="grow-75">
+                    <p>¡Oink, oink!</p>
+                    <div class="flex-form"> 
+                       
+                        <input type="text" class="opc largo" id="opcion" onkeydown="check_button(352,this)">
+                        <span class="labelResult " id="lblopcion"></span>
+                        <button type="button" onclick="checked(352)" id="btncheck" class="btn chequear">Chequear</button>
+                    </div>
+                   
+                </form>
+              
+            </div>
+
+        </div>
+    </main>
+
+    <div class="video" id="audio" style="display: none;">
+        <audio id="audioplayer" src="multimedia/audio/38.mp3" controls="controls"></audio>
+    </div>
+    <footer>
+        <div class="menu-bottom">
+            <div class="ft_izq">
+                <nav class="dropup" id="nave">
+                    <button class="dropbtn" aria-expanded="false" aria-controls="menu" id="menuButton">
+                        Índice
+                    </button>
+                    <ul class="dropup-content" id="menu" aria-label="Índice">
+                        <li>
+                            <a href="../inicio.html" id="index">
+                                <p>Inicio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../mulita/index.html" id="mulita">
+                                <p>Yo soy Mulita</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../feroces/index.html" id="feroces">
+                                <p>Los feroces</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../comelibros/index.html" id="comelibros">
+                                <p>Los comelibros</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../extranio/index.html" id="extranio">
+                                <p>El más extraño</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../intrepidos/index.html" id="intrepidos">
+                                <p>Los intrépidos</p>
+                            </a>
+                        </li> <li>
+                <a href="../pagelist.html" id="listado">
+                  <p>Guía de páginas</p>
+                </a>
+              </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="ft_der">
+                <nav class="navder">
+                    <ol>
+                        <li><a id="Anterior" href="../extranio/actividad-5-1.html"><img src="../images/svgPreviousPageW.svg" alt=""
+                                    aria-hidden="true"></a></li>
+                        <li><a id="Siguiente" href="../extranio/actividad-5-3.html"><img src="../images/svgNextPageW.svg" alt=""
+                                    aria-hidden="true"></a></li>
+                    </ol>
+                </nav>
+            </div>
+            <div class="ft_der">
+                <nav class="navder">
+                    <ol>
+                        <li>
+                            <button type="button" name="answer" onclick="myFunction()" id="toggleVideoOverHighlightImg">
+                                <img src="../images/iconVideosB.svg" alt="" aria-hidden="true" id="ico_video">
+                            </button>
+                        </li>
+                        <li id="btn_juntos">
+                            <button type="button" name="answer" onclick="audio()">
+                                <img src="../images/voiceOver_off.svg" alt="" aria-hidden="true"
+                                    id="toggleVoiceOverHighlightImg">
+                            </button>
+
+                            <button type="button" name="toggleVoiceOverHighlight" id="audio_control"
+                                onclick="audio_control()">
+                                <img src="../images/iconAudioB.svg" alt="" aria-hidden="true">
+                            </button>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <script async defer>let pageId = 2;</script>
+    <script src="../js/menu_drop.js"></script>
+    <script src="../js/menu_drop_act.js"></script>
+</body>
+
+</html>

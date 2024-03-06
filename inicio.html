@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="es"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="es"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"lang="es"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js" lang="es"> <![endif]-->
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel=" stylesheet" href="css/layout.css">
+  <link rel=" stylesheet" href="css/img_menu.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="js/video_home.js"></script>
+  <script src="js/util.js"></script>
+  <script src="js/smilFunctions-home.js"></script>
+  <title>Libro de lectura y actividades de segundo año - Índice</title>
+
+</head>
+
+<body>
+  <main class="container inicio">
+    <div id="video" class="fijado" style="display: none;">
+      <video src="multimedia/videos/Zorrito_indice.mp4" controls></video>
+    </div>
+    <h1>SEGUNDO CUADERNO <br> PARA LEER Y ESCRIBIR</h1>
+    <nav class="menu_principal">
+      <ul>
+        <li><a href="mulita/index.html" aria-label="Capítulo yo soy mulita">
+            <img src="img/cap_01.svg" alt="" aria-hidden="true">Yo soy Mulita</a></li>
+        <li><a href="feroces/index.html" aria-label="Capítulo los feroces">
+            <img src="img/cap_02.svg" alt="" aria-hidden="true">Los Feroces</a></li>
+        <li><a href="comelibros/index.html" aria-label="Capítulo los comelibros">
+            <img src="img/cap_03.svg" alt="" aria-hidden="true">Los Comelibros</a></li>
+        <li><a href="extranio/index.html" aria-label="Capítulo el más extraño">
+            <img src="img/cap_04.svg" alt="" aria-hidden="true">El más extraño</a></li>
+        <li><a href="intrepidos/index.html" aria-label="Capítulo Los intrépidos">
+            <img src="img/cap_05.svg" alt="" aria-hidden="true">Los Intrépidos</a></li>
+        <li><a href="multimedia/Cuaderno_Segundo.pdf" id="descarga_libro" aria-label="Descargar libro PDF">Descargar
+            libro PDF</a></li>
+      </ul>
+    </nav>
+   
+  </main>
+  
+  <div class="video" id="audio" style="display: none;">
+    <audio id="audioplayer" src="multimedia/audio/2.mp3" controls="controls"></audio>
+ </div>
+  <footer>
+    <div class="menu-bottom">
+      <div class="ft_izq">
+        <nav class="dropup" id="nave">
+          <button class="dropbtn" aria-expanded="false" aria-controls="menu" id="menuButton">
+            Índice
+          </button>
+          <ul class="dropup-content" id="menu" aria-label="Índice">
+            <li>
+              <a href="inicio.html" id="index">
+                <p>Inicio</p>
+              </a>
+            </li>
+            <li>
+              <a href="mulita/index.html" id="mulita">
+                <p>Yo soy Mulita</p>
+              </a>
+            </li>
+            <li>
+              <a href="feroces/index.html" id="feroces">
+                <p>Los feroces</p>
+              </a>
+            </li>
+            <li>
+              <a href="comelibros/index.html" id="comelibros">
+                <p>Los comelibros</p>
+              </a>
+            </li>
+            <li>
+              <a href="extranio/index.html" id="extranio">
+                <p>El más extraño</p>
+              </a>
+            </li>
+            <li>
+              <a href="intrepidos/index.html" id="intrepidos">
+                <p>Los intrépidos</p>
+              </a>
+            </li>
+            <li>
+              <a href="pagelist.html" id="listado">
+                <p>Guía de páginas</p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="ft_der">
+        <nav class="navder">
+          <ol>
+            <li class="espacio"></li>
+            <li><a href="mulita/index.html"><img src="images/svgNextPageW.svg" alt="" aria-hidden="true"></a></li>
+          </ol>
+        </nav>
+      </div>
+      <div class="ft_der">
+        <nav class="navder">
+          <ol>
+            <li>
+              <button type="button" name="answer" onclick="myFunction()" id="toggleVideoOverHighlightImg">
+                <img src="images/iconVideosB.svg" alt="" aria-hidden="true" id="ico_video">
+              </button>
+            </li>
+            <li id="btn_juntos">
+              <button type="button" name="answer" onclick="audio()">
+                <img src="images/voiceOver_off.svg" alt="" aria-hidden="true" id="toggleVoiceOverHighlightImg">
+              </button>
+
+              <button type="button" name="toggleVoiceOverHighlight" id="audio_control" onclick="audio_control()">
+                <img src="images/iconAudioB.svg" alt="" aria-hidden="true">
+              </button>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </footer>
+  <script async defer>let pageId = 4;</script>
+  <script src="js/menu_drop.js"></script>
+</body>
+
+</html>

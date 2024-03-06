@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="es"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="es"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"lang="es"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js" lang="es"> <![endif]-->
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel=" stylesheet" href="../css/layout.css">
+    <link rel=" stylesheet" href="../css/actividades.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="../js/video.js"></script>
+    <script src="../js/util.js"></script>
+    <script src="../js/smilFunctions.js"></script>
+    <script src="../js/funciones.js"></script>
+    <title>Cuento: EULATO</title>
+
+</head>
+
+<body>
+    <div id="video" class="fijado" style="display: none;">
+        <video src="multimedia/videos/El lobo y los 7 cabritos V1.mp4" controls></video>
+    </div>
+    <main class="container cuento-cabritos cuento-eulato">
+        <div>
+            <p>Al día siguiente, enterada del fracaso del
+                Grillo, la Araña Francisca quiso enseñar
+                a tejer a Eulato. Francisca iba y venía con
+                los hilos, los subía y bajaba, los entrecruzaba
+                y anudaba. Cuando Eulato tuvo
+                que repetir el ejercicio no hizo más que
+                enredarse y cortar hilos. Francisca lo
+                sacó del enredo y se alejó protestando.
+              </p>
+              <p>
+                Mientras tanto Eulato crecía y crecía.
+                Ahora comía semillas, tallos de hinojo,
+                porotos. Cada día se levantaba más
+                grande.
+            </p>
+            <p>Una madrugada se escuchó gritar y quejarse
+                al Bicho Canasto. Eulato había
+                estornudado y la fuerza del estornudo
+                sacudió de tal modo el gajo 14 que el
+                Bicho Canasto cayó al suelo.</p>
+
+        </div>
+        <figure class="img-cabritos-1">
+            <img src="img/Pag55/final.svg" alt="Un avispón y un grillo subidos en la parte más alta de un árbol">
+        </figure>
+    </main>
+
+    <div class="video" id="audio" style="display: none;">
+        <audio id="audioplayer" src="multimedia/audio/El lobo y los 7 cabritos 1.m4a" controls="controls"></audio>
+    </div>
+    <footer>
+        <div class="menu-bottom">
+            <div class="ft_izq">
+                <nav class="dropup" id="nave">
+                    <button class="dropbtn" aria-expanded="false" aria-controls="menu" id="menuButton">
+                        Índice
+                    </button>
+                    <ul class="dropup-content" id="menu" aria-label="Índice">
+                        <li>
+                            <a href="../inicio.html" id="index">
+                                <p>Inicio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../mulita/index.html" id="mulita">
+                                <p>Yo soy Mulita</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../feroces/index.html" id="feroces">
+                                <p>Los feroces</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../comelibros/index.html" id="comelibros">
+                                <p>Los comelibros</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../extranio/index.html" id="extranio">
+                                <p>El más extraño</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../intrepidos/index.html" id="intrepidos">
+                                <p>Los intrépidos</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../pagelist.html" id="listado">
+                                <p>Guía de páginas</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="ft_der">
+                <nav class="navder">
+                    <ol>
+                        <li><a id="Anterior" href="../extranio/cuento-3.html"><img src="../images/svgPreviousPageW.svg" alt=""
+                                    aria-hidden="true"></a></li>
+                        <li><a id="Siguiente" href="../extranio/cuento-5.html"><img src="../images/svgNextPageW.svg" alt=""
+                                    aria-hidden="true"></a></li>
+                    </ol>
+                </nav>
+            </div>
+            <div class="ft_der">
+                <nav class="navder">
+                    <ol>
+                        <li>
+                            <button type="button" name="answer" onclick="myFunction()" id="toggleVideoOverHighlightImg">
+                                <img src="../images/iconVideosB.svg" alt="" aria-hidden="true" id="ico_video">
+                            </button>
+                        </li>
+                        <li id="btn_juntos">
+                            <button type="button" name="answer" onclick="audio()">
+                                <img src="../images/voiceOver_off.svg" alt="" aria-hidden="true"
+                                    id="toggleVoiceOverHighlightImg">
+                            </button>
+
+                            <button type="button" name="toggleVoiceOverHighlight" id="audio_control"
+                                onclick="audio_control()">
+                                <img src="../images/iconAudioB.svg" alt="" aria-hidden="true">
+                            </button>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <script async defer>let pageId = 2;</script>
+    <script src="../js/menu_drop.js"></script>
+</body>
+
+</html>

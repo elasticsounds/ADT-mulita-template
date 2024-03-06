@@ -1,0 +1,167 @@
+ /* INICIO */
+
+.menu_principal li:nth-child(1) img {
+  height: 70px;
+  left: 0px;
+  top: -25px;
+}
+.menu_principal li:nth-child(1) a {
+  background: #e30613;
+}
+
+.menu_principal li:nth-child(2) img {
+  height: 70px;
+  left: 10px;
+  top: -25px;
+}
+.menu_principal li:nth-child(2) a {
+  background: #f39200;
+}
+
+.menu_principal li:nth-child(3) img {
+  height: 50px;
+  left: -5px;
+  top: -10px;
+}
+.menu_principal li:nth-child(3) a {
+  background: #2fac66;
+}
+
+.menu_principal li:nth-child(4) img {
+  height: 50px;
+  left: -5px;
+  top: -10px;
+}
+.menu_principal li:nth-child(4) a {
+  background: #b780b1;
+}
+
+.menu_principal li:nth-child(5) img {
+  height: 70px;
+  left: 15px;
+  top: -25px;
+}
+.menu_principal li:nth-child(5) a {
+  background: #00a0a4;
+}
+
+.menu_principal.feroces li a {
+  background: #f39200;
+}
+
+
+.menu_principal.comelibros li a {
+  background: #2fac66;
+}
+
+.menu_principal.extranio li a {
+    background: #b780b1;
+  }
+
+  .menu_principal.intrepidos li a {
+  background: #00a0a4;
+}
+
+/* FEROCES */
+
+.menu_principal.feroces li:nth-child(1) img {
+    height: 70px;
+    left: 6px;
+    top: -25px;
+}
+
+.menu_principal.feroces li:nth-child(2) img {
+    height: 80px;
+    left:20px;
+    top: -10px;
+}
+
+.menu_principal.feroces li:nth-child(3) img {
+    height: 70px;
+    left:0px;
+    top: -10px;
+}
+
+.menu_principal.feroces li:nth-child(4) img {
+    height: 50px;
+    left: -10px;
+    top: 0px;
+}
+
+
+/* COMELIBROS */
+.menu_principal.comelibros li:nth-child(1) img {
+  height: 70px;
+  left: -10px;
+  top: -25px;
+  transform: rotateY(180deg)
+}
+
+.menu_principal.comelibros li:nth-child(2) img {
+  height: 60px;
+  left:0px;
+  top: -10px;
+}
+
+.menu_principal.comelibros li:nth-child(3) img {
+  height: 60px;
+  left:0px;
+  top: -10px;
+}
+
+.menu_principal.comelibros li:nth-child(4) img {
+  height: 40px;
+  left: -10px;
+  top: 0px;
+}
+/* EXTRANIO */
+
+.menu_principal.extranio li:nth-child(1) img {
+  height: 65px;
+  left: -10px;
+  top: -25px;
+}
+
+.menu_principal.extranio li:nth-child(2) img {
+  height: 50px;
+  left: -10px;
+  top: -10px;
+}
+
+.menu_principal.extranio li:nth-child(3) img {
+  height: 50px;
+  left:-20px;
+  top: -5px;
+}
+
+.menu_principal.extranio li:nth-child(4) img {
+  height: 50px;
+  left: 20px;
+  top: -10px;
+}
+
+/* INTRÉPIDOS */
+
+.menu_principal.intrepidos li:nth-child(1) img {
+  height: 65px;
+  left: 20px;
+  top: -20px;
+}
+
+.menu_principal.intrepidos li:nth-child(2) img {
+  height: 50px;
+  left: -20px;
+  top: 0px;
+}
+
+.menu_principal.intrepidos li:nth-child(3) img {
+  height: 50px;
+  left:0px;
+  top: -5px;
+}
+
+.menu_principal.intrepidos li:nth-child(4) img {
+  height: 50px;
+  left: 20px;
+  top: -10px;
+}
