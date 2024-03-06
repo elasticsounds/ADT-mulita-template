@@ -1,4 +1,4 @@
-# ADT-zorrito-template
+# ADT-mulita-template
 A public template of the UNICEF Uruguay's ADT Mulita. This can be modified to create your own ADT.
 
 # Description
