@@ -17,7 +17,7 @@ This project is a web application designed to provide an accessible and interact
 * Basic knowledge of HTML, CSS, and JavaScript
 
 # Installing
-Clone the repository: git clone https://github.com/elasticsounds/ADT-zorrito-template/
+Clone the repository: git clone https://github.com/elasticsounds/ADT-mulita-template/
 Open index.html in your web browser to view the project
 
 # Project Structure
@@ -39,7 +39,7 @@ First, you need to have a copy of the project on your local machine.
 
 * install github on your machine
 * open the terminal
-* git clone https://github.com/elasticsounds/ADT-zorrito-template/
+* git clone https://github.com/elasticsounds/ADT-mulita-template/
 
 ## Step 2: Understand the File Structure
 Familiarize yourself with the project's directory structure. This includes:
