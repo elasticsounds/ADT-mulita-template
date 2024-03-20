@@ -85,7 +85,7 @@ git push
 
 ## Step 10: Documentation
 Update the README file to reflect any major changes in the project's structure or functionality.
-Remember to replace [repository URL] with the actual URL of your GitHub repository. These steps provide a general guideline. Specifics may vary based on your project's unique setup and requirements. ​
+Remember to replace [repository URL] with the actual URL of your GitHub repository. These steps provide a general guideline for replicating and updating an ADT.​
 
 # License
 
